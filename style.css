@@ -76,7 +76,9 @@ aside{
     width: 330px;
 }
 .article {
-    height: 0;
-    width: 0;
+    /*height: 0;
+    width: 0;*/
     color: white;
+    text-align: center;
+    background-color: #777
 }

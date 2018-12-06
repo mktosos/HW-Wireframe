@@ -3,20 +3,22 @@ body{
     background-color: darkgrey;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: "#777";
-    font-size: 17px;
+    font-size: 18px;
     background-color: #777;
     margin-left: 12%;
     margin-right: 13%;
+    width: 960px;
 }
 
 header, nav, section, aside, footer { 
     background: #ebebeb;
 }
 .bar {
-    padding: 30px;
+    padding: 36px;
     text-align: center;
     margin-bottom: 10px;
-    color: darkgray; 
+    color:darkgray;
+
 }
 header{
   
@@ -25,13 +27,13 @@ nav{
     
 }
 article{
-    color: darkgrey; 
-    position: absolute;
-    left: 150px;
-    bottom: 300px;
+    color: #ebebeb; 
+    position: relative;
+    left: 16px;
+    /*bottom: 300px;*/
     background-color: #777;
-    height: 25%;
-    width: 37%;
+    height: 170px;
+    width: 465px;
 }
 
 h1, p {
@@ -40,30 +42,31 @@ h1, p {
 }
 
 section {
-    width: 56%;
-    height: 240px;
-    padding-top: 10px;
+    width: 494px;
+    height: 245px;
+    padding-top: 18px;
     color: #777;
     text-align: center;
     float: left;
-    margin-right: 25px;
-    margin-top: 15px;
+    /*margin-right: 15px;*/
+    margin-top: 12px;
     
 }
 aside{
-    width: 40%;
+    width: 46%;
+    height: 245px;
     color: #777;
-    padding-top: 25px;
+    padding-top: 18px;
     text-align: center;
     float: right;
-    height: 223px;
-    margin-top: 15px;
+    
+    margin-top: 12px;
 }
 .footer {
     clear: both;
     color: #777;
     position: relative;
-    height: 80px;
+    height: 65px;
     width: 100%;
     top: 25px;
     text-align: center;
@@ -71,14 +74,19 @@ aside{
 }
 .buttonBar { 
     position: relative;
-    left: 20px;
+    left: 22px;
+    bottom: 10px;
     height: 50px;
-    width: 330px;
+    width: 90%;
+    
 }
 .article {
     /*height: 0;
     width: 0;*/
     color: white;
     text-align: center;
-    background-color: #777
+    background-color: #777;
+    line-height: 1.5;
+
 }
+
